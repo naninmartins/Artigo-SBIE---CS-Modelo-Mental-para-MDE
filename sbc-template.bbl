@@ -7,6 +7,31 @@ Ahmad, N. B.~H. and Shamsuddin, S.~M. (2010).
 \newblock In {\em 2010 10th International Conference on Intelligent Systems
   Design and Applications}, number November, pages 877--882.
 
+\bibitem[Baker et~al. 2011]{Baker_Isotani_Carvalho_2011}
+Baker, R., Isotani, S., and Carvalho, A. (2011).
+\newblock {Minera{\c{c}}{\~{a}}o de Dados Educacionais: Oportunidades para o
+  Brasil}.
+\newblock {\em Revista Brasileira de Inform{\'{a}}tica na
+  Educa{\c{c}}{\~{a}}o}, 19(02).
+
+\bibitem[Berti 2017]{Berti2017}
+Berti, C.~B. (2017).
+\newblock {\em {MODELO PREDITIVO DE SITUA{\c{C}}{\~{O}}ES COMO APOIO {\`{A}}
+  CONSCI{\^{E}}NCIA SITUACIONAL E AO PROCESSO DECIS{\'{O}}RIO EM SISTEMAS DE
+  RESPOSTA {\`{A}} EMERG{\^{E}}NCIA}}.
+\newblock PhD thesis, UNIVERSIDADE FEDERAL DE S{\~{A}}O CARLOS.
+
+\bibitem[dos Santos 2016]{Santos2016}
+dos Santos, R. M.~M. (2016).
+\newblock {Tecnicas de Aprendizagem de Maquina Utilizadas na Previs{\~{a}}o de
+  Desempenho Academico}.
+
+\bibitem[Endsley 1988]{Endsley1988}
+Endsley, M.~R. (1988).
+\newblock {PROCEEDINGS OF THE HUMAN FACTORS SOCIETY-32nd ANNUAL MEETING1988}.
+\newblock In {\em PROCEEDINGS OF THE HUMAN FACTORS SOCIETY}, pages 97--101,
+  Hawthorne, CA.
+
 \bibitem[Endsley 1995]{Endsley1995}
 Endsley, M.~R. (1995).
 \newblock {Toward a Theory of Situation Awareness in Dynamic Systems}.
@@ -26,6 +51,43 @@ Falci, S.~H., Andrade, A.~V., Assis, L. P.~D., Pitangui, C., de~Carvalho,
   L{\'{o}}gica Fuzzy e Categoriza{\c{c}}{\~{a}}o de Refor{\c{c}}os}.
 \newblock Number June.
 
+\bibitem[Fernandes et~al. 2016]{Leite_et_al_2016}
+Fernandes, W.~L., Pitangui, C.~G., Vivas, A., and Assis, L. (2016).
+\newblock {Levantamento e An{\'{a}}lise de Obras Recentes Baseada em
+  Minera{\c{c}}{\~{a}}o de Rela{\c{c}}{\~{o}}es e Clusteriza{\c{c}}{\~{a}}o}.
+\newblock Number October, page 970.
+
+\bibitem[Garc{\'{i}}a et~al. 2011]{Garcia_et_al_2011}
+Garc{\'{i}}a, E., Romero, C., Ventura, S., and {De Castro}, C. (2011).
+\newblock {A collaborative educational association rule mining tool}.
+\newblock {\em Internet and Higher Education}, 14(2):77--88.
+
+\bibitem[Goldschmidt et~al. 2005]{Goldschmidt_Passos_2005}
+Goldschmidt, R., Passos, E., and Bezerra, E. (2005).
+\newblock {\em {Data Mining: Um Guia Pr{\'{a}}tico - Conceitos, T{\'{e}}cnicas,
+  Ferramentas, Orienta{\c{c}}{\~{o}}es e Aplica{\c{c}}{\~{o}}es}}.
+
+\bibitem[Krishnaswamy et~al. 2005]{Krishnaswamy_et_al_2005}
+Krishnaswamy, S., Loke, S., Rakotonirainy, A., Horovitz, O., and Gaber, M.~M.
+  (2005).
+\newblock {Towards situation-awareness and ubiquitous data mining for road
+  safety: Rationale and architecture for a compelling application}.
+\newblock {\em Researchportal.Port.Ac.Uk}.
+
+\bibitem[Mitsch et~al. 2013]{Mitsch_et_al_2013}
+Mitsch, S., M{\"{u}}ller, A., Retschitzegger, W., Salfinger, A., and Schwinger,
+  W. (2013).
+\newblock {A survey on clustering techniques for situation awareness}.
+\newblock In {\em Lecture Notes in Computer Science (including subseries
+  Lecture Notes in Artificial Intelligence and Lecture Notes in
+  Bioinformatics)}, volume 7808 LNCS, pages 815--826.
+
+\bibitem[Moreira 1996]{Moreira1996}
+Moreira, M.~A. (1996).
+\newblock {MODELOS MENTAIS}.
+\newblock {\em Investiga{\c{c}}{\~{o}}es em Ensino de Ci{\^{e}}ncias},
+  1(3):193--232.
+
 \bibitem[Rabelo et~al. 2017]{Rabelo_et_al2017}
 Rabelo, H., Burlamaqui, A., Valentim, R., Rabelo, D. S. d.~S., and Medeiros, S.
   (2017).
@@ -34,10 +96,29 @@ Rabelo, H., Burlamaqui, A., Valentim, R., Rabelo, D. S. d.~S., and Medeiros, S.
   em ambientes virtuais de aprendizagem}.
 \newblock Number Cbie, page 1527.
 
+\bibitem[Romero and Ventura 2013]{Romero_Ventura_2013}
+Romero, C. and Ventura, S. (2013).
+\newblock {Data mining in education}.
+\newblock {\em Wiley Interdisciplinary Reviews: Data Mining and Knowledge
+  Discovery}, 3(1):12--27.
+
+\bibitem[Romero et~al. 2004]{Romero_Ventura_Bra_2004}
+Romero, C., Ventura, S., and Bra, P. (2004).
+\newblock {Knowledge discovery with genetic programming for providing feedback
+  to courseware author}.
+\newblock {\em User Modeling and User-Adapted Interaction: The Journal of
+  Personalization Research, 14(5)}, pages 425--464.
+
 \bibitem[Roy et~al. 2007]{Roy_Breton_Rousseau_2007}
 Roy, J., Breton, R., and Rousseau, R. (2007).
 \newblock {\em {Concepts, Models, and Tools for Information Fusion}}.
 \newblock Artech House , INC.
+
+\bibitem[Salerno et~al. 2004]{Salerno_Hinman_Boulware_2004}
+Salerno, J., Hinman, M., and Boulware, D. (2004).
+\newblock {Building A Framework For Situation Awareness}.
+\newblock {\em Seventh International Conference on Information Fusion},
+  28:680--686.
 
 \bibitem[Silva et~al. 2012]{Silva_et_al_2012}
 Silva, A. W.~L., Lacerda, M. R.~M., Santos, N.~D., Fialho, F. A.~P., and Netto,

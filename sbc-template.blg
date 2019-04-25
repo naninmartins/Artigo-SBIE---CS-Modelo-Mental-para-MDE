@@ -4,49 +4,53 @@ The top-level auxiliary file: sbc-template.aux
 The style file: sbc.bst
 Database file #1: library.bib
 Warning--there's a number but no series in Ahmad_Shamsuddin_2010
+Warning--empty note in Santos2016
 Warning--empty booktitle in Falci_et_al_2018
 Warning--there's a number but no series in Falci_et_al_2018
+Warning--empty booktitle in Leite_et_al_2016
+Warning--there's a number but no series in Leite_et_al_2016
+Warning--empty publisher in Goldschmidt_Passos_2005
 Warning--empty booktitle in Rabelo_et_al2017
 Warning--there's a number but no series in Rabelo_et_al2017
-You've used 7 entries,
+You've used 20 entries,
             1935 wiz_defined-function locations,
-            519 strings with 5461 characters,
-and the built_in function-call counts, 3057 in all, are:
-= -- 293
-> -- 140
-< -- 8
-+ -- 48
-- -- 48
-* -- 254
-:= -- 517
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 58
-chr.to.int$ -- 7
-cite$ -- 12
-duplicate$ -- 126
-empty$ -- 206
-format.name$ -- 59
-if$ -- 610
+            606 strings with 8499 characters,
+and the built_in function-call counts, 8333 in all, are:
+= -- 814
+> -- 355
+< -- 19
++ -- 120
+- -- 120
+* -- 688
+:= -- 1420
+add.period$ -- 58
+call.type$ -- 20
+change.case$ -- 157
+chr.to.int$ -- 20
+cite$ -- 29
+duplicate$ -- 342
+empty$ -- 564
+format.name$ -- 146
+if$ -- 1655
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 9
-newline$ -- 38
-num.names$ -- 21
-pop$ -- 67
+missing$ -- 21
+newline$ -- 101
+num.names$ -- 60
+pop$ -- 164
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 160
 quote$ -- 0
-skip$ -- 91
+skip$ -- 262
 stack$ -- 0
-substring$ -- 168
-swap$ -- 26
-text.length$ -- 5
+substring$ -- 509
+swap$ -- 71
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 38
-warning$ -- 5
-while$ -- 22
+type$ -- 114
+warning$ -- 9
+while$ -- 66
 width$ -- 0
-write$ -- 92
-(There were 5 warnings)
+write$ -- 256
+(There were 9 warnings)
