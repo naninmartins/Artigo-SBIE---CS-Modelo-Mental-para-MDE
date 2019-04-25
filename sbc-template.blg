@@ -3,47 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: sbc.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "knuth:84"
-Warning--I didn't find a database entry for "boulic:91"
-You've used 1 entry,
+Warning--there's a number but no series in Ahmad_Shamsuddin_2010
+Warning--empty booktitle in Falci_et_al_2018
+Warning--there's a number but no series in Falci_et_al_2018
+Warning--empty booktitle in Rabelo_et_al2017
+Warning--there's a number but no series in Rabelo_et_al2017
+You've used 7 entries,
             1935 wiz_defined-function locations,
-            480 strings with 3954 characters,
-and the built_in function-call counts, 280 in all, are:
-= -- 27
-> -- 7
-< -- 1
-+ -- 2
-- -- 2
-* -- 18
-:= -- 60
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 5
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 18
-format.name$ -- 3
-if$ -- 49
+            519 strings with 5461 characters,
+and the built_in function-call counts, 3057 in all, are:
+= -- 293
+> -- 140
+< -- 8
++ -- 48
+- -- 48
+* -- 254
+:= -- 517
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 58
+chr.to.int$ -- 7
+cite$ -- 12
+duplicate$ -- 126
+empty$ -- 206
+format.name$ -- 59
+if$ -- 610
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 4
+missing$ -- 9
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 67
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 59
 quote$ -- 0
-skip$ -- 11
+skip$ -- 91
 stack$ -- 0
-substring$ -- 12
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 168
+swap$ -- 26
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 2
+type$ -- 38
+warning$ -- 5
+while$ -- 22
 width$ -- 0
-write$ -- 15
-(There were 2 warnings)
+write$ -- 92
+(There were 5 warnings)

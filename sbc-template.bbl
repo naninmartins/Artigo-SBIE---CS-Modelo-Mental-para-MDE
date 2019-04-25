@@ -1,10 +1,50 @@
 \begin{thebibliography}{}
 
-\bibitem[Berti 2017]{Berti2017}
-Berti, C.~B. (2017).
-\newblock {\em {MODELO PREDITIVO DE SITUA{\c{C}}{\~{O}}ES COMO APOIO {\`{A}}
-  CONSCI{\^{E}}NCIA SITUACIONAL E AO PROCESSO DECIS{\'{O}}RIO EM SISTEMAS DE
-  RESPOSTA {\`{A}} EMERG{\^{E}}NCIA}}.
-\newblock PhD thesis, UNIVERSIDADE FEDERAL DE S{\~{A}}O CARLOS.
+\bibitem[Ahmad and Shamsuddin 2010]{Ahmad_Shamsuddin_2010}
+Ahmad, N. B.~H. and Shamsuddin, S.~M. (2010).
+\newblock {A comparative analysis of mining techniques for automatic detection
+  of student's learning style}.
+\newblock In {\em 2010 10th International Conference on Intelligent Systems
+  Design and Applications}, number November, pages 877--882.
+
+\bibitem[Endsley 1995]{Endsley1995}
+Endsley, M.~R. (1995).
+\newblock {Toward a Theory of Situation Awareness in Dynamic Systems}.
+\newblock {\em Human Factors: The Journal of the Human Factors and Ergonomics
+  Society}, 37(1):32--64.
+
+\bibitem[Endsley and Jones 2012]{Endsley2012}
+Endsley, M.~R. and Jones, D.~G. (2012).
+\newblock {\em {Designing for Situation Awareness: An Approach to User-Centered
+  Design}}.
+\newblock CRC Press, second edi edition.
+
+\bibitem[Falci et~al. 2018]{Falci_et_al_2018}
+Falci, S.~H., Andrade, A.~V., Assis, L. P.~D., Pitangui, C., de~Carvalho,
+  L.~L., and Dor{\c{c}}a, F. (2018).
+\newblock {Detec{\c{c}}{\~{a}}o de Estilos de Aprendizagem Utilizando
+  L{\'{o}}gica Fuzzy e Categoriza{\c{c}}{\~{a}}o de Refor{\c{c}}os}.
+\newblock Number June.
+
+\bibitem[Rabelo et~al. 2017]{Rabelo_et_al2017}
+Rabelo, H., Burlamaqui, A., Valentim, R., Rabelo, D. S. d.~S., and Medeiros, S.
+  (2017).
+\newblock {Utiliza{\c{c}}{\~{a}}o de t{\'{e}}cnicas de minera{\c{c}}{\~{a}}o de
+  dados educacionais para predi{\c{c}}{\~{a}}o de desempenho de alunos de EaD
+  em ambientes virtuais de aprendizagem}.
+\newblock Number Cbie, page 1527.
+
+\bibitem[Roy et~al. 2007]{Roy_Breton_Rousseau_2007}
+Roy, J., Breton, R., and Rousseau, R. (2007).
+\newblock {\em {Concepts, Models, and Tools for Information Fusion}}.
+\newblock Artech House , INC.
+
+\bibitem[Silva et~al. 2012]{Silva_et_al_2012}
+Silva, A. W.~L., Lacerda, M. R.~M., Santos, N.~D., Fialho, F. A.~P., and Netto,
+  M. (2012).
+\newblock {Consci{\^{e}}ncia Da Situa{\c{c}}{\~{a}}o Em Equipes
+  Transdisciplinares}.
+\newblock {\em Ci{\^{e}}ncias e Cogni{\c{c}}{\~{a}}o / Science and Cognition},
+  17(2):115--134.
 
 \end{thebibliography}
