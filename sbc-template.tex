@@ -4,6 +4,7 @@
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage{float}
 %\usepackage[latin1]{inputenc}  
 
      
@@ -119,7 +120,7 @@ A Mineração de Dados foi desenvolvida com o intuito de permitir descoberta de 
 
 \section{Estado da Arte}
 
-\cite{Dorca2012} desenvolve uma abordagem estocástica visando a detecção dos Estilos de Aprendizagem do aluno, o desenvolvimento do trabalho resultou em um Módulo do Estudante, um Módulo Pedagógico e o Componente de Modelagem do Estudante, usou-se Cadeia de Markov e Algoritmo de Aprendizagem por Reforço como técnicas dentro dos módulos para o processo de detecção do estilo, seguindo seu modelo.
+\cite{Dorca2012} desenvolve uma abordagem estocástica visando a detecção dos Estilos de Aprendizagem do aluno, o desenvolvimento do trabalho resultou em um Módulo do Estudante, um Módulo Pedagógico e o Componente de Modelagem do Estudante, usou-se Cadeia de Markov e Algoritmo de Aprendizagem por Reforço como técnicas dentro dos módulos para o processo de detecção do estilo.
 
 \cite{Salazar_Vivas_Luciana_2017} construíram um novo algoritmo empregando o uso de redes Bayesianas para detecção do estilo de aprendizagem, \cite{Falci_et_al_2018} propõem uma customização desta abordagem utilizando lógica fuzzy e categorização de reforços, já \cite{Ribeiro_et_al_2017} aplicam o uso de Média Móvel Exponencialmente Ponderada para detecção dos estilos.
 
@@ -140,6 +141,28 @@ A Mineração de Dados foi desenvolvida com o intuito de permitir descoberta de 
 \cite{Krishnaswamy_et_al_2005} desenvolvem uma arquitetura que busca a CS em rodovias, para isto, propõe-se o uso de técnicas de mineração de dados onipresentes embarcadas em dispositivos móveis transmitidas em redes wireless dispostas nas rodovias. A arquitetura promete reduzir erros humanos graças ao monitoramento das estradas e dos dispositivos móveis dentro dos carros executando o algoritmo LWC de classificação de eventos.
 
 \section{Abordagem Proposta}
+
+O presente trabalho propõe uma organização computacional de um Modelo Mental que poderá ser aplicado diretamente sobre as etapas de Compreensão e Projeção na construção de AVA's suportados por CS, tais softwares devem ter a capacidade de auto-gerenciamento definindo assim qual melhor técnica de MDE deverá ser tomada diante de cada situação.
+
+A estrutura do Modelo Mental deverá ser capaz de avaliar as características dos dados a serem processador, objetivo a ser atingido e a condição encontrada no estado vigente. Os esquemas e scripts deste modelo desempenham papel crucial relacionando todas as características da situação presente a alguma estrutura vivenciada e/ou definida anteriormente.
+
+Em uma situação empírica ótima os modelos mentais deveriam ser capazes de sugerir quais possíveis melhores métodos incorporados a MDE adequam-se para obtenção do resultado esperado. 
+
+O Modelo Mental é volátil e pode ser alterado futuramente conforme a mudança das condições do ambiente onde o software funcionará, os objetivos são extremamente dinâmicos e ilustram as metas do ambiente no qual foram inseridos. O Modelo aqui proposto fundamenta-se nos objetivos, características do conjunto de dados e métodos nos estudos realizados pelas obras levantadas neste trabalho. Os objetivos são:Detecção do Estilo de Aprendizagem e Prevenção do Desempenho acadêmico do Discente.
+
+O primeiro parâmetro dado a árvore será qual o objetivo que deve ser minerado do conjunto de dados a ser trabalho, desta definição, a árvore percorrerá o caminho no qual atender melhor as expectativas e características do conjunto, deduzindo através de experiências prévias qual técnica MDE possivelmente atenderá as expectativas do conjunto (ex: Em Detecção do Estilo de Aprendizagem se o tratamento dos dados é Estocástico e o nº de iterações é pequeno então deverá ser aplicado o algoritmo de Virtebi como enfatizam \cite{Sena_etal_2016} ). 
+
+A organização a ser seguida pelo Modelo Mental poderá ser construída em diversas estruturas computacionais de dados, decidiu-se neste trabalho o uso de Árvores de Decisão devido a sua facilidade de entendimento e implementação (Figura \ref{arvoreDecisao}). 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.85]{figuras/ArvoreDecisao}
+	\caption{Árvore de Decisão para seleção de metódo MDE. Fonte: elaborado pelo autor }
+	\label{arvoreDecisao}	
+\end{figure}
+
+\section{Discussões}
+
 
 
 \section{Conclusão e Trabalhos Futuros}

@@ -3,7 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: sbc-template.aux
 The style file: sbc.bst
 Database file #1: library.bib
-Warning--I didn't find a database entry for "Dorca201"
 Warning--there's a number but no series in Ahmad_Shamsuddin_2010
 Warning--empty note in Santos2016
 Warning--empty booktitle in Falci_et_al_2018
@@ -22,45 +21,45 @@ Warning--empty journal in Sena_etal_2016
 Warning--there's a number but no volume in Sena_etal_2016
 Warning--empty journal in Silva_etal_2017
 Warning--there's a number but no volume in Silva_etal_2017
-You've used 31 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            675 strings with 11684 characters,
-and the built_in function-call counts, 12674 in all, are:
-= -- 1220
-> -- 575
-< -- 22
-+ -- 196
-- -- 196
-* -- 1091
-:= -- 2208
-add.period$ -- 90
-call.type$ -- 31
-change.case$ -- 249
-chr.to.int$ -- 31
-cite$ -- 49
-duplicate$ -- 488
-empty$ -- 837
-format.name$ -- 233
-if$ -- 2460
+            636 strings with 10373 characters,
+and the built_in function-call counts, 10601 in all, are:
+= -- 1009
+> -- 491
+< -- 20
++ -- 168
+- -- 168
+* -- 916
+:= -- 1849
+add.period$ -- 75
+call.type$ -- 26
+change.case$ -- 211
+chr.to.int$ -- 26
+cite$ -- 44
+duplicate$ -- 411
+empty$ -- 699
+format.name$ -- 200
+if$ -- 2056
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 155
-num.names$ -- 93
-pop$ -- 247
+missing$ -- 26
+newline$ -- 130
+num.names$ -- 78
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 253
+purify$ -- 214
 quote$ -- 0
-skip$ -- 364
+skip$ -- 302
 stack$ -- 0
-substring$ -- 777
-swap$ -- 77
-text.length$ -- 11
+substring$ -- 616
+swap$ -- 63
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
+type$ -- 150
 warning$ -- 18
-while$ -- 100
+while$ -- 81
 width$ -- 0
-write$ -- 391
-(There were 19 warnings)
+write$ -- 326
+(There were 18 warnings)
