@@ -84,7 +84,7 @@ Existem algumas variações nos modelos de definição da consciência da situa�
 	
 	\item \textbf{\textit{Projeção} do estado futuro:}
 	
-	Nesta etapa deve-se ser capaz de predizer um estado futuro, ou seja, a habilidade de antever eventos onde tomadores de decisão necessitam de um alto nível de SA. O Nível 3 somente é obtido a partir de uma boa compreensão (Nível 2). \cite{Endsley2012} exemplificam que: `` com Nível 3 de CS, uma motorista sabe que se prosseguir para dentro do cruzamento da rua, ela provavelmente será atingida. "
+	Nesta etapa deve-se ser capaz de predizer um estado futuro, ou seja, a habilidade de antever eventos onde tomadores de decisão necessitam de um alto nível de SA. O Nível 3 somente é obtido a partir de uma boa compreensão (Nível 2), assim os dados compreendidos fornecem a ciência necessária para antecipar fatos que possam vir a ocorrer.
 	
 \end{itemize}
 
@@ -92,7 +92,7 @@ Existem algumas variações nos modelos de definição da consciência da situa�
 
 Para \cite{Endsley2012} o indivíduo  possui dois tipos de memórias: \textit{de curto prazo ou de trabalho e de longo prazo}. Quando armazenamos informações em \textit{memória de trabalho}, gravamos o conhecimento em uma base temporária na mente, entretanto somente uma quantia restrita de informação consegue ser retida e manipulada, sendo que uma pessoa deverá relacionar-se ativamente com estas informações para não esquecê-las. A informação conciliada com conhecimento prévio em uma memória de trabalho cria uma nova imagem mental ou a atualiza conforme mudanças na situação. 	
 
-Imagem mental são formas de representar em pensamento o mundo externo, a mente humana capta o mundo exterior a partir de representações mentais. Estas visões podem ser categorizadas entre representações \textit{analógicas e proposicionais}, a imagem visual é um exemplo de representação analógica \cite{Moreira1996}. 
+Imagens mentais são formas de representar em pensamento o mundo externo, a mente humana capta o mundo exterior a partir de representações mentais. Estas visões podem ser categorizadas entre representações \textit{analógicas e proposicionais}, a imagem visual é um exemplo de representação analógica \cite{Moreira1996}. 
 
 Por outro lado as representações proposicionais são abstratas, organizadas em regras rígidas compreendendo o conteúdo ideacional da mente. Estas representações proposicionais mapeiam-se em uma linguagem da mente (`` mentalês "), de forma que representações proposicionais não são pensamentos expressos em frases, mas sim entidades individuais e abstratas formuladas em linguagem própria da mente, alguns psicólogos cognitivos afirmam que a imagem mental pode ser reduzida a representações proposicionais  \cite{Moreira1996}.
 
@@ -152,8 +152,7 @@ O Modelo Mental é volátil e pode ser alterado futuramente conforme a mudança 
 
 A organização a ser seguida pelo Modelo Mental poderá ser construída em diversas estruturas computacionais de dados, decidiu-se neste trabalho o uso de Árvores de Decisão devido a sua facilidade de entendimento e implementação (Figura \ref{arvoreDecisao}). 
 
-O parâmetro de entrada na árvore indica qual o objetivo da iteração será explorado no conjunto de dados, desta definição, percorre-se o caminho que melhor atende as expectativas e características do conjunto, deduzindo através de experiências prévias qual técnica em MDE possivelmente melhor se encaixa ao conjunto (ex: Em Detecção do Estilo de Aprendizagem se o tratamento dos dados é Estocástico e o nº de iterações é pequeno então deverá ser aplicado o algoritmo de Virtebi como expõem \cite{Sena_etal_2016} ). 
-
+O parâmetro de entrada na árvore indica qual o objetivo da iteração será explorado no conjunto de dados, desta definição, percorre-se o caminho que melhor atende as expectativas e características do conjunto, deduzindo através de experiências prévias qual técnica em MDE possivelmente melhor se encaixa ao conjunto (ex: Em Detecção do Estilo de Aprendizagem, se o tratamento dos dados é Estocástico e o nº de iterações é pequeno então deverá ser aplicado o algoritmo de Virtebi como expõem \cite{Sena_etal_2016}). 
 
 
 \begin{figure}[H]
@@ -173,7 +172,7 @@ Aplicando diretamente sobre as etapas de Compreensão e Projeção em CS os mode
 	\item \textit{Para a situação ``\textbf{Y}" geralmente o método ``\textbf{X}" tem apresentado melhores resultados!}
 \end{itemize}
 
-Por sua vez os modelos mentais atuam na etapa de Projeção descrevendo o cenário, evidenciando os estados observáveis e atingíveis fundamentados pelos conhecimento evidenciados no estágio anterior, ou seja, antevem cenários atingidos pelos alunos diante das relações criadas entre os dados do sistema.
+Por sua vez os modelos mentais atuam na etapa de Projeção descrevendo o cenário, evidenciando os estados observáveis e atingíveis fundamentados pelos conhecimentos evidenciados no estágio anterior, ou seja, antevem cenários atingidos pelos alunos diante das relações criadas entre os dados do sistema.
 
 \begin{itemize}	
 	\item \textit{Se existe o relacionamento ``\textbf{Z}" e a variável ``\textbf{Y}" é maior do que ``\textbf{X}", geralmente atinjo o estado ``\textbf{K}"!}
@@ -182,8 +181,19 @@ Por sua vez os modelos mentais atuam na etapa de Projeção descrevendo o cenár
 Um modelo mental pode influenciar as etapas de Compreensão e Projeção simultaneamente, ou agir especificamente em cada etapa do processo. O modelo aqui representado (figura \ref{arvoreDecisao}) atua diretamente sobre a etapa de Compreensão em CS.
 
 
-\section{Conclusão e Trabalhos Futuros}
-Então Aqui vão as conclusões e trabalhos futuros do que vai rolar nessa bagaça tretistica
+\section{Considerações Finais}
+
+O uso da CS viabiliza um entendimento mais sucinto e claro das ações em execução no ambiente, assim no âmbito educacional o seu uso traz uma perspectiva mais ampla sobre as inúmeras respostas coletadas naquela esfera. Este processo viabiliza a maior assertividade nas ações tomadas por discentes uma vez que estes estejam mais conscientes sobre o estado deparado no ambiente.
+
+Este trabalho desenvolve um modelo mental estruturado em Árvore de Decisão para que possa ser implementado em AVA's, tal modelo estrutura-se nas experiências e características relatas pelos trabalhos aqui referenciados. 
+
+Atuando diretamente sobre a etapa de Compreensão dos dados, a árvore procura otimizar a extração de conhecimento do conjunto de dados educacionais. O modelo mental procura expandir o uso das técnicas da mineração de dados, pois propõe à aplicação o método que melhor se adapta ao estado do ambiente.
+
+Esta pesquisa limitou-se a utilização de técnicas MDE para o processamento dos dados, entretanto pode-se expandir a outras abordagens para a descoberta do conhecimento, o uso de linguagens lógicas e ontologias por exemplo podem ser utilizadas tanto na construção dos modelos mentais quanto no processamento do conjunto de dados educacionais.
+
+A principal contribuição deste texto é em considerar o uso da CS particularmente na esfera educacional, visto a escassez de pesquisas que aprofundam-se neste tema. A abordagem consciente da situação propõe uma gama de novas perspectivas e discussões na construção de um software voltado à educação, propondo automatizações no processamento dos dados adquiridos e na significância destes dados para o ambiente.  
+
+Inúmeros outros aspectos podem ser discutidos dentro da CS em AVA's, o modelo mental é um componente importante mas que sozinho não considera todas as particularidades para discernimento da situação. Trabalhos futuros caminham na direção de um modelo de AVA suportado por CS contemplando todos os aspectos e etapas de Percepção, Projeção e Compreensão.
 
 \bibliographystyle{sbc}
 \bibliography{library}
