@@ -161,9 +161,7 @@ Entende-se por conteúdo teórico como informações na web, transparências, an
  
 O \textbf{Módulo Seletor} deverá ser capaz de avaliar as características dos dados a serem processados, objetivo a ser atingido e a condição encontrada no estado vigente. Os esquemas e scripts deste modelo desempenham papel crucial relacionando todas as características da situação presente a alguma estrutura vivenciada e/ou definida anteriormente. 
 
-Em uma situação empírica ótima os modelos mentais deveriam ser capazes de sugerir quais possíveis melhores métodos incorporados a MDE adequam-se para obtenção do resultado esperado. 
-
-O Modelo Mental é volátil e pode ser alterado futuramente conforme a mudança das condições do ambiente onde o software funcionará, os objetivos são extremamente dinâmicos e ilustram as metas do ambiente no qual foram inseridos. 
+Em uma situação empírica ótima os modelos mentais deveriam ser capazes de sugerir quais possíveis melhores métodos incorporados a MDE adequam-se para obtenção do resultado esperado.  
 
 O \textbf{Pré-Processamento e Percepção} consiste na obtenção dos sinais do ambiente, o resultado decorrente da interação Aluno X Professor X Conteúdos Teóricos/Práticos consiste na principal fonte de entrada de dados. 
 
@@ -190,34 +188,33 @@ O resultado final do fluxo do processamento deverá ser capaz de apresentar uma 
 
 O Modelo Mental procura representar o máximo de eventos que melhor atendam as situações comuns sobre um conjunto de dados. Para cada tarefa a ser executada em um AVA deve existir situações previamente estruturadas que se assemelham aos padrões da iteração, do contrário esta nova situação deverá ser avaliada e possivelmente adicionada ao modelo.
 
-Aplicando diretamente sobre as etapas de Compreensão e Projeção em CS os modelos exercem diferentes papéis em cada etapa. Em Compreensão os modelos mentais atuam comparando a iteração corrente com esquemas e scripts que melhor aplicam-se naquele conjunto de dados a partir do objetivo selecionado pelo docente.
+Aplicando diretamente sobre as etapas de Compreensão e Projeção em CS o módulo seletor exerce diferentes funções em cada etapa. Em Compreensão os modelos mentais comparam cada iteração corrente com esquemas e scripts que melhor aplicam-se naquele conjunto de dados a partir do objetivo selecionado pelo docente. Ou seja, os modelos mentais devem ser capazes de sugerir qual técnica contida na MDE provavelmente atenderá melhor aquele conjunto de dados.
 
 \begin{itemize}	
 	\item \textit{Para a situação ``\textbf{Y}" geralmente o método ``\textbf{X}" tem apresentado melhores resultados!}
+	\item \textit{Se as classes de amostragem estão desbalanceadas, deve-se realizar o balanceamento primeiro!}
 \end{itemize}
 
 Por sua vez os modelos mentais atuam na etapa de Projeção descrevendo o cenário, evidenciando os estados observáveis e atingíveis fundamentados pelos conhecimentos evidenciados no estágio anterior, ou seja, antevem cenários atingidos pelos alunos diante das relações criadas entre os dados do sistema.
 
 \begin{itemize}	
 	\item \textit{Se existe o relacionamento ``\textbf{Z}" e a variável ``\textbf{Y}" é maior do que ``\textbf{X}", geralmente atinjo o estado ``\textbf{K}"!}
+	\item \textit{Se um aluno possui média de 70\% no período anterior e sua interação com o sistema diminui, é possível a reprovação do mesmo no próximo período!}
 \end{itemize}
 
-Um modelo mental pode influenciar as etapas de Compreensão e Projeção simultaneamente, ou agir especificamente em cada etapa do processo. O modelo aqui representado (figura \ref{arvoreDecisao}) atua diretamente sobre a etapa de Compreensão em CS.
+O Modelo Mental é volátil e pode ser alterado futuramente conforme a mudança das condições do ambiente onde o software funcionará, os objetivos são extremamente dinâmicos e ilustram as metas do ambiente no qual foram inseridos.
 
+Sem uma implementação de modelos mentais este software assemelharia-se profundamente com sistemas baseados totalmente em MDE, a capacidade de estruturar uma situação observável em esquemas e scripts permite a expansão da aplicação do modelo para a discernimento dos acontecimentos.
 
 \section{Considerações Finais}
 
+Este trabalho consistiu-se no desenvolvimento de um modelo de suporte a aprendizagem em AVA’s, sua construção foi fortemente fundamentada nas áreas de pesquisa Consciência Situacional e Mineração de Dados Educacionais.
+
 O uso da CS viabiliza um entendimento mais sucinto e claro das ações em execução no ambiente, assim no âmbito educacional o seu uso traz uma perspectiva mais ampla sobre as inúmeras respostas coletadas naquela esfera. Este processo viabiliza a maior assertividade nas ações tomadas por discentes uma vez que estes estejam mais conscientes sobre o estado deparado no ambiente.
 
-Este trabalho desenvolve um modelo mental estruturado em Árvore de Decisão para que possa ser implementado em AVA's, tal modelo estrutura-se nas experiências e características relatas pelos trabalhos aqui referenciados. 
-
-Atuando diretamente sobre a etapa de Compreensão dos dados, a árvore procura otimizar a extração de conhecimento do conjunto de dados educacionais. O modelo mental procura expandir o uso das técnicas da mineração de dados, pois propõe à aplicação o método que melhor se adapta ao estado do ambiente.
-
-Esta pesquisa limitou-se a utilização de técnicas MDE para o processamento dos dados, entretanto pode-se expandir a outras abordagens para a descoberta do conhecimento, o uso de linguagens lógicas e ontologias por exemplo podem ser utilizadas tanto na construção dos modelos mentais quanto no processamento do conjunto de dados educacionais.
+O modelo mental procura expandir o uso das técnicas da mineração de dados, pois propõe à aplicação o método que melhor se adapta ao estado do ambiente. A MDE é proposta como um motor processador de dados em conhecimento, por sua vez a CS foca-se nas ações atingíveis a partir de cada variável da execução, conhecimento obtido e objetivo pré-determinado.
 
 A principal contribuição deste texto é em considerar o uso da CS particularmente na esfera educacional, visto a escassez de pesquisas que aprofundam-se neste tema. A abordagem consciente da situação propõe uma gama de novas perspectivas e discussões na construção de um software voltado à educação, propondo automatizações no processamento dos dados adquiridos e na significância destes dados para o ambiente.  
-
-Inúmeros outros aspectos podem ser discutidos dentro da CS em AVA's, o modelo mental é um componente importante mas que sozinho não considera todas as particularidades para discernimento da situação. Trabalhos futuros caminham na direção de um modelo de AVA suportado por CS contemplando todos os aspectos e etapas de Percepção, Projeção e Compreensão.
 
 \bibliographystyle{sbc}
 \bibliography{library}
